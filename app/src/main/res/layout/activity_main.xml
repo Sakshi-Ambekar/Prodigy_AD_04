@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tic Tac Toe"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
+
+        <GridLayout
+            android:id="@+id/gridLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="3"
+            android:rowCount="3"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            android:layout_marginBottom="20dp">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textSize="30sp"
+                android:contentDescription="Button 1"
+                android:onClick="onButtonClick"/>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textSize="30sp"
+                android:contentDescription="Button 2"
+                android:onClick="onButtonClick"/>
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textSize="30sp"
+                android:contentDescription="Button 3"
+                android:onClick="onButtonClick"/>
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textSize="30sp"
+                android:contentDescription="Button 4"
+                android:onClick="onButtonClick"/>
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textSize="30sp"
+                android:contentDescription="Button 5"
+                android:onClick="onButtonClick"/>
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textSize="30sp"
+                android:contentDescription="Button 6"
+                android:onClick="onButtonClick"/>
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textSize="30sp"
+                android:contentDescription="Button 7"
+                android:onClick="onButtonClick"/>
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textSize="30sp"
+                android:contentDescription="Button 8"
+                android:onClick="onButtonClick"/>
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textSize="30sp"
+                android:contentDescription="Button 9"
+                android:onClick="onButtonClick"/>
+
+        </GridLayout>
+
+        <Button
+            android:id="@+id/resetButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reset Game"
+            android:contentDescription="Reset Game Button"
+            android:onClick="onResetClick"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+
+
